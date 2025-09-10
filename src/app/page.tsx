@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
-import Image from 'next/image'
+import Image from "next/image";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -99,21 +99,21 @@ export default function Page() {
         </div>
       </section>
       <section id="skills">
-  <div className="flex min-h-0 flex-col gap-y-3">
-    <BlurFade delay={BLUR_FADE_DELAY * 9}>
-      <h2 className="text-xl font-bold">Skills</h2>
-    </BlurFade>
-    <BlurFade delay={BLUR_FADE_DELAY * 10}>
-      <Image 
-        src={DATA.skillsImage} // Use the dynamic property
-        alt="Programming Skills"
-        width={192}
-        height={48}
-        className="h-12 w-auto object-contain"
-      />
-    </BlurFade>
-  </div>
-</section>
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 9}>
+            <h2 className="text-xl font-bold">Skills</h2>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 10}>
+            <Image
+              src={DATA.skillsImage} // Use the dynamic property
+              alt="Programming Skills"
+              width={192}
+              height={48}
+              className="h-12 w-auto object-contain"
+            />
+          </BlurFade>
+        </div>
+      </section>
 
       <section id="projects">
         <div className="space-y-12 w-full py-12">
@@ -127,7 +127,9 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I have worked on many projects from simple CLI tools to complex deployable applications. Here are the projects I enjoyed working on the most!
+                  I have worked on many projects from simple CLI tools to
+                  complex deployable applications. Here are the projects I
+                  enjoyed working on the most!
                 </p>
               </div>
             </div>
@@ -162,10 +164,15 @@ export default function Page() {
                   Certifications
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  My Achievements                
-                  </h2>
+                  My Achievements
+                </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I believe that certifications and extracurricular activities are great ways to enhance my skills and demonstrate my commitment to continuous learning and professional development.                </p>              </div>
+                  I believe that certifications and extracurricular activities
+                  are great ways to enhance my skills and demonstrate my
+                  commitment to continuous learning and professional
+                  development.{" "}
+                </p>{" "}
+              </div>
             </div>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
@@ -199,7 +206,8 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to contact me? Feel free to reach out and I'll get back to you as soon as possible.
+                Want to contact me? Feel free to reach out and I'll get back to
+                you as soon as possible.
               </p>
             </div>
           </BlurFade>

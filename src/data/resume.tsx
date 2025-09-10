@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description: "Computer Science Student at Universidade da Beira Interior.",
   summary:
-    "Hi, I'm Diogo Gomes de Araújo, a third-year Computer Science student at Universidade da Beira Interior. From an early age, my fascination with technology led me to build simple games, websites and applications, fueling my passion for programming and shaping my career path.\n\nI'm always seeking to expand my skills and knowledge, whether through internships, projects, or new challenges. My aim is not only to grow as a software engineer but also to contribute to work that has a lasting impact.",
+    "Hi, I'm Diogo Gomes de Araújo, a **Backend Developer** with a **Bachelor's Degree in Computer Science and Engineering** in Universidade da Beira Interior. From an early age, my fascination with technology led me to build simple games, websites and applications, fueling my passion for programming and shaping my career path.\n\nI'm interested in cryptography, functional programming, distributed systems and algorithms, but primarily finding **efficient solutions** to **complex problems**. I hope that, in doing so, I can have an everlasting impact in the evolution of software.",
   avatarUrl: "/me1.png",
   skillsImage: "/icons.svg",
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
@@ -52,13 +52,13 @@ export const DATA = {
       start: "May 2024",
       end: "July 2025",
       description:
-        "As a backend engineer at Star JE, I built scalable and efficient solutions using Node.js and TypeScript, enhancing performance. I was also a recruter and managed different projects with multiple people.",
+        "As a backend engineer at Star JE, I built scalable, efficient and maintainable backend solutions for real-world clients. Additionally, I assisted in recruiting technical talent by screening candidates and leading interviews and directed teams to successfully deliver a diverse portfolio of projects.",
     },
     {
       company: "Degema",
       badges: [],
       href: "https://degema.pt/",
-      location: "Remote",
+      location: "On-Site",
       title: "Restaurant Server",
       logoUrl: "/degema.jpg",
       start: "July 2023",
@@ -118,17 +118,17 @@ export const DATA = {
       image: "/funk.gif",
     },
     {
-      title: "Arythmetic Interpreter",
-      href: "https://github.com/diogogomesaraujo/aryth-ml-tic",
+      title: "Arithmetic Interpreter",
+      href: "https://github.com/diogogomesaraujo/arith-ml-tic",
       dates: "January 2025",
       active: true,
       description:
-        "A lightweight OCaml lexer and interpreter for arythmetic functions to consolidate what was learnt in Theory of Computation class.",
+        "A lightweight OCaml lexer and interpreter for arithmetic functions to consolidate what was learnt in Theory of Computation class.",
       technologies: ["OCaml", "Menhir"],
       links: [
         {
           type: "Source",
-          href: "https://github.com/diogogomesaraujo/aryth-ml-tic",
+          href: "https://github.com/diogogomesaraujo/arith-ml-tic",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -154,13 +154,13 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Learn Rust from Scratch",
-      dates: "November, 2024",
-      location: "Remote",
+      title: "Participation in Inforum 2025 - Évora",
+      dates: "September, 2025",
+      location: "On-Site",
       description:
-        "Gained hands-on experience with Rust's unique syntax and semantics, while developing a strong foundation in error handling and pattern matching techniques.",
-      image: "images.png",
-      links: [],
+        "Presented a poster on my Bachelor's Degree final project, connected with researchers, professionals, and fellow students, and received feedback that will help me grow further as an engineer.",
+      image: "inforum.png",
+      links: ["https://inforum2025.xdi.uevora.pt/"],
     },
     {
       title: "Industrial Robotics - Fundamentals",
