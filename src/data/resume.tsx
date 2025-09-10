@@ -12,30 +12,31 @@ export const DATA = {
     "Hi, I'm Diogo Gomes de Araújo, a **Backend Developer** with a **Bachelor's Degree in Computer Science and Engineering** in Universidade da Beira Interior. From an early age, my fascination with technology led me to build simple games, websites and applications, fueling my passion for programming and shaping my career path.\n\nI'm interested in cryptography, functional programming, distributed systems and algorithms, but primarily finding **efficient solutions** to **complex problems**. I hope that, in doing so, I can have an everlasting impact in the evolution of software.",
   avatarUrl: "/me1.png",
   skillsImage: "/icons.svg",
-  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "/resume.pdf", icon: NotebookIcon, label: "Curriculum", download: true }
+  ],
   contact: {
     email: "contact@diogoaraujo.com",
     tel: "+351 914576371",
+    resumeUrl: "/resume.pdf",
     social: {
       GitHub: {
         name: "GitHub",
         url: "https://github.com/diogogomesaraujo",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/diogogomesaraujo/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       Email: {
         name: "Send Email",
         url: "mailto:contact@diogoaraujo.pro",
         icon: Icons.email,
-
         navbar: true,
       },
     },
