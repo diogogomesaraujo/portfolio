@@ -128,8 +128,8 @@ export default function Page() {
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I have worked on many projects from simple CLI tools to
-                  complex deployable applications. Here are the projects I
-                  enjoyed working on the most!
+                  full-stack applications. Here are the projects I enjoyed
+                  working on the most.
                 </p>
               </div>
             </div>
@@ -167,10 +167,8 @@ export default function Page() {
                   My Achievements
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I believe that certifications and extracurricular activities
-                  are great ways to enhance my skills and demonstrate my
-                  commitment to continuous learning and professional
-                  development.{" "}
+                  These are some extracurricular courses and events I have
+                  participated in over the years.{" "}
                 </p>{" "}
               </div>
             </div>
@@ -206,8 +204,8 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to contact me? Feel free to reach out and I'll get back to
-                you as soon as possible.
+                Want to contact me? Feel free to send me an email and I'll get
+                back to you as soon as possible.
               </p>
             </div>
           </BlurFade>

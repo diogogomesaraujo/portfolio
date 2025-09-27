@@ -7,14 +7,19 @@ export const DATA = {
   url: "https://dillion.io",
   location: "Covilhã/Braga, Portugal",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
-  description: "Computer Science Student at Universidade da Beira Interior.",
+  description: "Master of Computer Science Student at Universidade do Porto.",
   summary:
-    "Hi, I'm Diogo Gomes de Araújo, a **Backend Developer** with a **Bachelor's Degree in Computer Science and Engineering** in Universidade da Beira Interior. From an early age, my fascination with technology led me to build simple games, websites and applications, fueling my passion for programming and shaping my career path.\n\nI'm interested in cryptography, functional programming, distributed systems and algorithms, but primarily finding **efficient solutions** to **complex problems**. I hope that, in doing so, I can have an everlasting impact in the evolution of software.",
+    "Hi, I'm Diogo Gomes de Araújo, and I am currently pursuing a **Computer Science Master's Degree** at Faculdade de Ciências da Universidade do Porto. Since I was young, my fascination with technology led me to build simple games, websites and applications. This sparked a long-lasting passion for programming and shaped my career path.\n\nI'm interested in cryptography, functional programming, distributed systems and algorithms, but primarily finding **efficient solutions** to **complex problems**. I belive that by avoiding shortcuts and embracing difficulty I can reach greater heights as an engineer.",
   avatarUrl: "/me1.png",
   skillsImage: "/icons.svg",
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/resume.pdf", icon: NotebookIcon, label: "Curriculum", download: true }
+    {
+      href: "/resume.pdf",
+      icon: NotebookIcon,
+      label: "Curriculum",
+      download: true,
+    },
   ],
   contact: {
     email: "contact@diogoaraujo.com",
@@ -53,7 +58,7 @@ export const DATA = {
       start: "May 2024",
       end: "July 2025",
       description:
-        "As a backend engineer at Star JE, I built scalable, efficient and maintainable backend solutions for real-world clients. Additionally, I assisted in recruiting technical talent by screening candidates and leading interviews and directed teams to successfully deliver a diverse portfolio of projects.",
+        "As a backend engineer at Star JE, I built and maintained backend API's for web and mobile applications. Additionally, I assisted in recruiting by screening candidates and leading interviews. Finally, I directed teams to successfully deliver a diverse portfolio of projects.",
     },
     {
       company: "Degema",
@@ -70,12 +75,20 @@ export const DATA = {
   ],
   education: [
     {
+      school: "Faculdade de Ciências da Universidade do Porto",
+      href: "https://www.up.pt/fcup/pt/",
+      degree: "Master's Degree in Computer Science",
+      logoUrl: "/fcup.jpg",
+      start: "September 2025",
+      end: "Now",
+    },
+    {
       school: "Universidade da Beira Interior",
       href: "https://www.ubi.pt/en/",
       degree: "Bachelor's Degree in Computer Science and Engineering",
       logoUrl: "/ubi.png",
-      start: "2022",
-      end: "2025",
+      start: "September 2022",
+      end: "July 2025",
     },
   ],
   projects: [
