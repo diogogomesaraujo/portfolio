@@ -149,24 +149,38 @@ export const DATA = {
       image: "/interpreter.png",
     },
     {
-      title: "OCaml Game",
-      href: "https://github.com/diogogomesaraujo/ocaml-game",
-      dates: "January 2024",
+      title: "Game for RetroJam 2025",
+      href: "https://github.com/diogogomesaraujo/sisyphus-retrojam-2025",
+      dates: "October 2025",
       active: true,
       description:
-        "A simple Mr. Robot themed game made with Raylib in OCaml. Inspired by TJ Devries.",
-      technologies: ["OCaml", "Raylib"],
+        'A game developed for IEEE RetroJam 2025 using Raylib and Rust about Rebirth".',
+      technologies: ["Rust", "Raylib"],
       links: [
+        {
+          type: "Itch Page",
+          href: "https://github.com/diogogomesaraujo/ocaml-game",
+          icon: <Icons.github className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/diogogomesaraujo/ocaml-game",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/elliot.gif",
+      image: "/demo_retro.gif",
     },
   ],
   hackathons: [
+    {
+      title: "2nd Place in IEEE RetroJam 2025",
+      dates: "October, 2025",
+      location: "On-Site",
+      description:
+        "Placed second alongside my brother Rodrigo with a retro-styled game developed in 48 hours with Rust and Raylib",
+      image: "ieee.png",
+      links: [""],
+    },
     {
       title: "Participation in Inforum 2025 - Évora",
       dates: "September, 2025",
@@ -183,14 +197,6 @@ export const DATA = {
       description:
         "Learnt about industrial robotics and how to program robotic arms.",
       image: "ubi.png",
-    },
-    {
-      title: "Scrum Foundation Certificate",
-      dates: "September, 2024",
-      location: "Remote",
-      description:
-        "Gained comprehensive knowledge of Agile principles and Scrum framework, including sprint planning, daily standups, and retrospectives. Learned to effectively collaborate in cross-functional teams and manage product backlogs.",
-      image: "logo-certiprof.png",
     },
     {
       title: "Robocup 2016 - Leipzig, Germany, Certificate of Participation",
