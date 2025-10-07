@@ -4,12 +4,12 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Diogo Araújo",
   initials: "DA",
-  url: "https://dillion.io",
+  url: "https://diogoaraujo.com",
   location: "Covilhã/Braga, Portugal",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/",
   description: "Master of Computer Science Student at Universidade do Porto.",
   summary:
-    "Hi, I'm Diogo Gomes de Araújo, and I am currently pursuing a **Computer Science Master's Degree** at Faculdade de Ciências da Universidade do Porto. Since I was young, my fascination with technology led me to build simple games, websites and applications. This sparked a long-lasting passion for programming and shaped my career path.\n\nI'm interested in cryptography, functional programming, distributed systems and algorithms, but primarily finding **efficient solutions** to **complex problems**. I belive that by avoiding shortcuts and embracing difficulty I can reach greater heights as an engineer.",
+    "Hi, I'm Diogo Gomes de Araújo, and I am currently pursuing a **Computer Science Master's Degree** at Faculdade de Ciências da Universidade do Porto. Since I was young, my fascination with technology led me to build simple games, websites and applications. This sparked a long-lasting passion for programming and shaped my career path.\n\nI'm interested in cryptography, functional programming, distributed systems and algorithms, but primarily finding **efficient solutions** to **complex problems**. I belive that by avoiding shortcuts and embracing difficulty I can reach greater heights as an engineer\n.",
   avatarUrl: "/me1.png",
   skillsImage: "/icons.svg",
   navbar: [
@@ -154,17 +154,17 @@ export const DATA = {
       dates: "October 2025",
       active: true,
       description:
-        'A game developed for IEEE RetroJam 2025 using Raylib and Rust about Rebirth".',
+        "A game developed for IEEE RetroJam 2025 using Raylib and Rust in 48 hours in collaboraton with my brother.",
       technologies: ["Rust", "Raylib"],
       links: [
         {
           type: "Itch Page",
-          href: "https://github.com/diogogomesaraujo/ocaml-game",
-          icon: <Icons.github className="size-3" />,
+          href: "https://diogoaraujo2004.itch.io/sisyphus",
+          icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/diogogomesaraujo/ocaml-game",
+          href: "https://github.com/diogogomesaraujo/sisyphus-retrojam-2025",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -177,7 +177,7 @@ export const DATA = {
       dates: "October, 2025",
       location: "On-Site",
       description:
-        "Placed second alongside my brother Rodrigo with a retro-styled game developed in 48 hours with Rust and Raylib",
+        "Placed second alongside my brother Rodrigo with a retro-styled game developed in 48 hours using Rust and Raylib.",
       image: "ieee.png",
       links: [""],
     },
