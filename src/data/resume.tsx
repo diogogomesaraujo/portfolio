@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/",
   description: "Master of Computer Science Student at Universidade do Porto.",
   summary:
-    "Hi, I'm Diogo Gomes de Araújo, and I am currently pursuing a **Computer Science Master's Degree** at Faculdade de Ciências da Universidade do Porto. Since I was young, my fascination with technology led me to build simple games, websites and applications. This sparked a long-lasting passion for programming and shaped my career path.\n\nI'm interested in cryptography, functional programming, distributed systems and algorithms, but primarily finding **efficient solutions** to **complex problems**. I belive that by avoiding shortcuts and embracing difficulty I can reach greater heights as an engineer\n.",
+    "Hi, I'm Diogo Gomes de Araújo, and I am currently pursuing a **Computer Science Master's Degree** at Faculdade de Ciências da Universidade do Porto. Since I was young, my fascination with technology led me to build simple games, websites and applications. This sparked a long-lasting passion for programming and shaped my career path.\n\nI'm interested in cryptography, parallel and functional programming, distributed systems and algorithms, but primarily finding **efficient solutions** to **complex problems**. I belive that by avoiding shortcuts and embracing difficulty I can reach greater heights as an engineer.\n",
   avatarUrl: "/me1.png",
   skillsImage: "/icons.svg",
   navbar: [
@@ -200,11 +200,19 @@ export const DATA = {
     },
     {
       title: "Robocup 2016 - Leipzig, Germany, Certificate of Participation",
-      dates: "Summer, 2016",
+      dates: "July, 2016",
       location: "On-Site",
       description:
         "Participating in RoboCup was a transformative childhood experience that ignited my enduring passion for technology and programming.",
       image: "robocup.png",
+    },
+    {
+      title: "National 1st Place – Robotics Championship (CoSpace Rescue) 2016",
+      dates: "May, 2016",
+      location: "On-Site",
+      description:
+        "Awarded for excellence in robot programming, navigation algorithms, and autonomous systems.",
+      image: "braganca.png",
     },
   ],
 } as const;
