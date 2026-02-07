@@ -49,6 +49,17 @@ export const DATA = {
 
   work: [
     {
+      company: "INESC TEC",
+      href: "https://inesctec.pt/",
+      badges: [],
+      location: "Hybrid",
+      title: "Researcher",
+      logoUrl: "/inesc.png",
+      start: "January 2026",
+      end: "Present",
+      description: "",
+    },
+    {
       company: "STAR JE",
       href: "https://starje.pt/",
       badges: [],
@@ -59,18 +70,6 @@ export const DATA = {
       end: "July 2025",
       description:
         "As a backend engineer at Star JE, I built and maintained backend API's for web and mobile applications. Additionally, I assisted in recruiting by screening candidates and leading interviews. Finally, I directed teams to successfully deliver a diverse portfolio of projects.",
-    },
-    {
-      company: "Degema",
-      badges: [],
-      href: "https://degema.pt/",
-      location: "On-Site",
-      title: "Restaurant Server",
-      logoUrl: "/degema.jpg",
-      start: "July 2023",
-      end: "September 2023",
-      description:
-        "As a waiter at Degema, I focused on teamwork and communication to ensure smooth service and a positive customer experience.",
     },
   ],
   education: [
@@ -120,7 +119,7 @@ export const DATA = {
       dates: "January 2025",
       active: true,
       description:
-        "A fluid text editor written in C to learn more about systems programming threads and memory managment.",
+        "A fluid text editor written in C to learn more about systems programming threads and memory management.",
       technologies: ["C", "Raylib"],
       links: [
         {
@@ -132,21 +131,21 @@ export const DATA = {
       image: "/funk.gif",
     },
     {
-      title: "Arithmetic Interpreter",
-      href: "https://github.com/diogogomesaraujo/arith-ml-tic",
-      dates: "January 2025",
+      title: "TUI Chat",
+      href: "https://github.com/diogogomesaraujo/chat-a-tui",
+      dates: "February 2026",
       active: true,
       description:
-        "A lightweight OCaml lexer and interpreter for arithmetic functions to consolidate what was learnt in Theory of Computation class.",
-      technologies: ["OCaml", "Menhir"],
+        "A Discord-like video chat application that runs in the terminal.",
+      technologies: ["Rust", "Tokio"],
       links: [
         {
           type: "Source",
-          href: "https://github.com/diogogomesaraujo/arith-ml-tic",
+          href: "https://github.com/diogogomesaraujo/chat-a-tui",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/interpreter.png",
+      image: "/cam.gif",
     },
     {
       title: "Game for RetroJam 2025",
