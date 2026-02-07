@@ -1,8 +1,8 @@
 # Build stage
-FROM --platform=linux/amd64 node:18.19-alpine3.19 AS builder
+FROM --platform=linux/amd64 node:20-alpine3.19 AS builder
 
 # Install pnpm
-RUN corepack enable && corepack prepare pnpm@latest --activate
+RUN npm install -g pnpm
 
 # Add necessary packages and create non-root user
 RUN apk add --no-cache libc6-compat && \
@@ -27,12 +27,12 @@ RUN chown -R nextjs:nodejs .
 RUN pnpm build
 
 # Production stage
-FROM --platform=linux/amd64 node:18-alpine AS runner
+FROM --platform=linux/amd64 node:20-alpine AS runner
 
 WORKDIR /app
 
 # Install pnpm
-RUN corepack enable && corepack prepare pnpm@latest --activate
+RUN npm install -g pnpm
 
 # Create non-root user
 RUN addgroup --system --gid 1001 nodejs && \
@@ -51,8 +51,6 @@ USER nextjs
 EXPOSE 3000
 
 # Set environment variables
-ENV PORT 3000
-ENV HOSTNAME "0.0.0.0"
-ENV NODE_ENV production
+ENV PORT=3000 HOSTNAME="0.0.0.0" NODE_ENV=production
 
 CMD ["node", "server.js"] 
