@@ -33,13 +33,13 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
     const mousex = useMotionValue(Infinity);
 
     const renderChildren = () => {
-      return React.Children.map(children, (child: any) => {
+      return React.Children.map(children, (child) => {
         if (React.isValidElement(child)) {
           return React.cloneElement(child, {
             mousex,
             magnification,
             distance,
-          } as DockIconProps);
+          } as React.HTMLAttributes<HTMLElement> & DockIconProps);
         }
         return child;
       });

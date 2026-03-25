@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/",
   description: "Master of Computer Science Student at Universidade do Porto.",
   summary:
-    "Hi, I'm Diogo Gomes de Araújo, and I am currently pursuing a **Computer Science Master's Degree** at Faculdade de Ciências da Universidade do Porto. Since I was young, my fascination with technology led me to build simple games, websites and applications. This sparked a long-lasting passion for programming and shaped my career path.\n\nI'm interested in cryptography, parallel and functional programming, distributed systems and algorithms, but primarily finding **efficient solutions** to **complex problems**. I belive that by avoiding shortcuts and embracing difficulty I can reach greater heights as an engineer.\n",
+    "Hi, I'm Diogo Gomes de Araújo, and I am currently pursuing a **Computer Science Master's Degree** at Faculdade de Ciências da Universidade do Porto. Since I was young, my fascination with technology led me to build simple games, websites and applications, sparking a long-lasting passion for programming and shaping my career path.\n\nI'm interested in cryptography, functional programming, distributed systems, compilers and algorithms, but primarily **solving ever harder problems**. I believe that by avoiding shortcuts and embracing difficulty I can reach greater heights as a professional.\n",
   avatarUrl: "/me1.png",
   skillsImage: "/icons.svg",
   navbar: [
@@ -57,7 +57,8 @@ export const DATA = {
       logoUrl: "/inesc.png",
       start: "January 2026",
       end: "Present",
-      description: "",
+      description:
+        "Developed and maintained IoT gateway microservices for DER communication. Deployed a Zero Trust framework (Teleport) for secure remote access to all IoT devices in the Power and Energy Systems laboratory.",
     },
     {
       company: "STAR JE",
@@ -69,7 +70,7 @@ export const DATA = {
       start: "May 2024",
       end: "July 2025",
       description:
-        "As a backend engineer at Star JE, I built and maintained backend API's for web and mobile applications. Additionally, I assisted in recruiting by screening candidates and leading interviews. Finally, I directed teams to successfully deliver a diverse portfolio of projects.",
+        "As a backend engineer at Star JE, I built backend API's for web and mobile applications. Additionally, I assisted in recruiting, directed teams and talked to clients to ensure project requirements where met.",
     },
   ],
   education: [
