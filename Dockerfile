@@ -1,7 +1,7 @@
 # ----------------------
 # Builder stage
 # ----------------------
-FROM node:20-alpine3.19 AS builder
+FROM --platform=linux/amd64 node:20-alpine3.19 AS builder
 
 # Install pnpm
 RUN npm install -g pnpm
@@ -27,7 +27,7 @@ RUN pnpm build
 # ----------------------
 # Runner stage (production)
 # ----------------------
-FROM node:20-alpine3.19 AS runner
+FROM --platform=linux/amd64 node:20-alpine3.19 AS runner
 
 # Set working directory
 WORKDIR /app

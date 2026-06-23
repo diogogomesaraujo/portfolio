@@ -5,12 +5,12 @@ export const DATA = {
   name: "Diogo Araújo",
   initials: "DA",
   url: "https://diogoaraujo.com",
-  location: "Covilhã/Braga, Portugal",
+  location: "Porto/Braga, Portugal",
   locationLink: "https://www.google.com/maps/place/",
   description: "Master of Computer Science Student at Universidade do Porto.",
   summary:
-    "Hi, I'm Diogo Gomes de Araújo, and I am currently pursuing a **Computer Science Master's Degree** at Faculdade de Ciências da Universidade do Porto. Since I was young, my fascination with technology led me to build simple games, websites and applications, sparking a long-lasting passion for programming and shaping my career path.\n\nI'm interested in cryptography, functional programming, distributed systems, compilers and algorithms, but primarily **solving ever harder problems**. I believe that by avoiding shortcuts and embracing difficulty I can reach greater heights as a professional.\n",
-  avatarUrl: "/me1.png",
+    "Hi, I'm Diogo Gomes de Araújo, and I am a **Master of Computer Science** student at **Faculdade de Ciências da Universidade do Porto**. I'm interested in cryptography, functional programming, distributed systems, compilers and algorithms.\n",
+  avatarUrl: "/me2.jpg",
   skillsImage: "/icons.svg",
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -56,7 +56,7 @@ export const DATA = {
       title: "Researcher",
       logoUrl: "/inesc.png",
       start: "January 2026",
-      end: "Present",
+      end: "April 2026",
       description:
         "Developed and maintained IoT gateway microservices for DER communication. Deployed a Zero Trust framework (Teleport) for secure remote access to all IoT devices in the Power and Energy Systems laboratory.",
     },
@@ -114,40 +114,43 @@ export const DATA = {
       ],
       image: "/wallet.gif",
     },
+
     {
-      title: "Text Editor",
-      href: "https://github.com/diogogomesaraujo/funk-txt",
-      dates: "January 2025",
+      title: "Blocktion",
+      href: "https://github.com/diogogomesaraujo/blocktion",
+      dates: "May 2026 - June 2026",
       active: true,
       description:
-        "A fluid text editor written in C to learn more about systems programming threads and memory management.",
-      technologies: ["C", "Raylib"],
+        "A secure proof-of-work blockhain for auctions implemented in Rust from scratch.",
+      technologies: ["Rust", "Libp2p", "Tokio", "Ratatui", "Dalek"],
       links: [
         {
           type: "Source",
-          href: "https://github.com/diogogomesaraujo/funk-txt",
+          href: "https://github.com/diogogomesaraujo/blocktion",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/funk.gif",
+      image: "/block.gif",
     },
+
     {
-      title: "TUI Chat",
-      href: "https://github.com/diogogomesaraujo/chat-a-tui",
-      dates: "February 2026",
+      title: "Functional Language",
+      href: "https://github.com/diogogomesaraujo/fun",
+      dates: "April 2026 - June 2026",
       active: true,
       description:
-        "A Discord-like video chat application that runs in the terminal.",
-      technologies: ["Rust", "Tokio"],
+        "A core functional programming language implemented in OCaml.",
+      technologies: ["OCaml", "Menhir"],
       links: [
         {
           type: "Source",
-          href: "https://github.com/diogogomesaraujo/chat-a-tui",
+          href: "https://github.com/diogogomesaraujo/fun",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/cam.gif",
+      image: "/fun.png",
     },
+
     {
       title: "Game for RetroJam 2025",
       href: "https://github.com/diogogomesaraujo/sisyphus-retrojam-2025",
@@ -169,6 +172,40 @@ export const DATA = {
         },
       ],
       image: "/demo_retro.gif",
+    },
+    {
+      title: "TUI Chat",
+      href: "https://github.com/diogogomesaraujo/chat-a-tui",
+      dates: "February 2026",
+      active: true,
+      description:
+        "A Discord-like video chat application that runs in the terminal.",
+      technologies: ["Rust", "Tokio"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/diogogomesaraujo/chat-a-tui",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/cam.gif",
+    },
+    {
+      title: "Garbage Collectors",
+      href: "https://github.com/diogogomesaraujo/gc",
+      dates: "May 2026 - June 2026",
+      active: true,
+      description:
+        "A set of garbage collectors built in C with a virtual machine and parser for ASM-like instructions.",
+      technologies: ["C", "OCaml", "Menhir", "CTypes"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/diogogomesaraujo/gc",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/gc.png",
     },
   ],
   hackathons: [
